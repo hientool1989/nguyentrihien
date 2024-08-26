@@ -92,16 +92,13 @@ $tsm99 = array($a1, $a2, $a3, $a4);
 $result   = DNGLK();
 $login = $result['jsonData'];
 $ketqua = $login['status'];
-if ($ketqua == 200) {} else {echo "AUTHOZATION HOAC USER_ANGEN\n";sleep(2);mothai();continue;}
+if ($ketqua == 200) {} else {echo "AUTHOZATION HOAC USER_ANGEN\n";sleep(2);clear();continue;}
 $nana = $login['data']['username'];
 
-$them = themcokiyou();
-$mama = $them['data'][0]['name'];
-if ($mama == false) {echo "TK GOLIKE $nana TRUA THEM KENH YOUTUBE VAO NHE\n";exit;}
+
+
 
 echo "DA LUU TAI KHOAN GOLIKE $nana VAO FILE\n";sleep(2);clear();
-
-
 
 
 
