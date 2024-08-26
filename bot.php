@@ -90,7 +90,7 @@ if ($ketqua == 200) {} else {echo "AUTHOZATION HOAC USER_ANGEN\n";sleep(2);clear
 $nana = $login['data']['username'];
 echo "DA LUU TAI KHOAN GOLIKE $nana VAO FILE\n";sleep(2);clear();
 
-
+tong();
 
 
 
