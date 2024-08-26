@@ -8,8 +8,8 @@ $a2 = "t:VFZSamVVNUVVWGhPUkVFeVRWRTlQUT09";
 
 function clear() {system("clear");}
 
-function tong(){global $authu, $ser, $name, $xyxy;
-file_put_contents('tong.txt',"$authu|$ser|$name|PROXY=$xyxy\n", FILE_APPEND);}
+function tong(){global $authu, $ser, $nana, $xyxy;
+file_put_contents('tong.txt',"$authu|$ser|$nana|PROXY=$xyxy\n", FILE_APPEND);}
 
 
 
